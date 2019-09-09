@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Add";
+}
+<h2>@ViewData["Title"]</h2>
+
+<dir id="addProduct">
+    Category:<select id="productCategory"></select>
+    <br /><br />
+    Product Name:
+    <input id="productName" type="text" name="productName" value="Product Name">
+    <br /><br />
+    Price:
+    <input id="productPrice" type="number" name="productPrice" value="10">
+    <br /><br />
+    <input id="addsubmit" onclick="addButtonClick()" type="submit" value="Submit">
+</dir>
